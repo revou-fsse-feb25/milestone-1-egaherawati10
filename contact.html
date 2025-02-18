@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ega Herawati</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navlist">
+                <li class="nav-item"><a href="/">Home</a></li>
+                <li class="nav-item"><a href="/aboutme.html">About</a></li>
+                <li class="nav-item"><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="backend.com" method="post">
+            <caption>Contact Me</caption>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" placeholder="Enter your name" required></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" placeholder="Enter you email address" required></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="tel" id="phone" name="phone" pattern="[0-9]{11-13}" placeholder="Enter your phone number" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Select your concerns</label>
+                        <select name="concerns" id="concerns" required>
+                            <option value="hire-me">Hire Me</option>
+                            <option value="inquiry">Inquiry</option>
+                            <option value="collaboration">Collaborate</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inquiry">Write your questions</label>
+                        <textarea name="inquiry" id="inquiry"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+</body>
+</html>
