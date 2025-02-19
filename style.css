@@ -55,3 +55,11 @@ body{
     font-size:1rem;
     background:var(--clr-button);
 }
+
+#image{
+    width: 120px;
+    height: 140px;
+    border-radius:var(--radius);
+    overflow: hidden;
+    position: middle;
+}
