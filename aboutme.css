@@ -213,22 +213,14 @@ section .topic {
     color: #b74b4b;
 }
 
-.edu-work {
+.edu {
     color: white;
     font-size: 25px;
     font-weight: 500;
-    margin: 30px 30px 30px 30px;
+    margin: 10px 30px 50px 30px;
 }
 
-.edu-work-list {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px 30px 30px 30px;
-}
-
-.edu-work i{
+.edu i{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
@@ -244,7 +236,51 @@ section .topic {
     transition: 0.2s linear;
 }
 
-.edu-work i:hover {
+.edu i:hover {
+    scale: 1.3;
+    color: black;
+    background-color: #b74b4b;
+    filter: drop-shadow(0 0 10px #b74b4b);
+}
+
+.edu-list li {
+    align-items: left;
+    display: grid;
+    grid-template-columns: auto 40px ;
+    justify-content: center;
+}
+
+.work {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 30px 80px 30px;
+}
+
+.edu-work-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work i{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.3rem solid #b74b4b;
+    border-radius: 50%;
+    color: #b74b4b;
+    margin: 15px 80px 20px 20px;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+}
+
+.work i:hover {
     scale: 1.3;
     color: black;
     background-color: #b74b4b;
@@ -283,15 +319,16 @@ section .topic {
 
 footer {
     width: 100%;
-    height: 10rem;
+    height: 5rem;
     position: fixed;
     bottom: 0;
     background-color: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     color: white;
+    gap: 5vw;
     font-size: 1.2rem;
     font-weight: 400;
 }
