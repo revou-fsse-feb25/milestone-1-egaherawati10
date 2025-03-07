@@ -35,7 +35,17 @@ This is an overview and documentation of a website that tells the visitors about
 
 ## Deploy Website :
 
-github: https://revou-fsse-feb25.github.io/milestone-1-egaherawati10/
+> Github Pages: https://revou-fsse-feb25.github.io/milestone-1-egaherawati10/
+
+
+## CSS Implementation
+
+Solar System Animation
+![alt text](image.png)
+
+Cards
+![alt text](image-1.png)
+
 
 ## Creator
 
