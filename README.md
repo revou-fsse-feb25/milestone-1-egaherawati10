@@ -13,6 +13,9 @@ This is an overview and documentation of a website that tells the visitors about
 * About Section : Shows visitors about my journey as software engineer
 * Projects Section : Shows visitors about my projects
 * Contact Form Section : Allows visitors to reach me out
+* Transition effects
+* Animation on projects section
+* Blinking cursor effect
 
 
 ## Technologies Used
@@ -20,7 +23,7 @@ This is an overview and documentation of a website that tells the visitors about
 * HTML for stucturing this website
 * CSS for styling this website
 * Flex & Grid for responsive design
-* Media queries for responsive background image
+* Media queries that change background image with screen-dependent 
 * CSS Transition & Animation to make this website prettier
 
 
