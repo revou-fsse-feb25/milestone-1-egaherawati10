@@ -33,7 +33,6 @@ body{
 nav{
     width: 100%;
     height: 10vh;
-
 }
 
 .navlist {
@@ -46,7 +45,7 @@ nav{
 
 .logo {
     color: white;
-    font-size: 2rem;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -57,7 +56,6 @@ nav{
 
 .nav-item {
     display: flex;
-
 }
 
 .nav-item a {
@@ -99,18 +97,18 @@ nav{
 
 .main-container p {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
 }
 
 .main-container .content {
     color: white;
     width: 85%;
-    margin-left: 28px;
+    margin: 28px 3rem 2rem 4rem;
 }
 
 .content h1{
-    font-size: clamp(2rem, 1rem + 5vw, 1.8rem);
+    font-size: clamp(1.6rem, 1rem + 5vw, 1.8rem);
     color: #b74b4b
 }
 
@@ -127,17 +125,27 @@ section {
     flex-wrap: wrap;
     min-height: 20vh;
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 20vh;
+}
+
 .card {
     position: relative;
     color: grey;
     background-color: #252525;
-    width: 280px;
+    width: 240px;
     border-radius: 1rem;
-    margin: 2rem;
+    margin: 0.5rem 1rem 10rem 1rem;
     color: white;
     display: grid;
     place-content: center;
-    padding: 3rem 3rem;
+    padding: 2rem 2rem;
     isolation: isolate;
     overflow: hidden;
 }
@@ -154,6 +162,7 @@ section {
     z-index: -2;
     animation: animate 8s linear infinite;
 }
+
 @keyframes animate {
     to{
         transform: rotate(-360deg);
@@ -173,7 +182,7 @@ section {
     background-color: #252525;
 }
 .card i{
-    font-size: 4rem;
+    font-size: 3rem;
     margin-inline: auto;
     color: transparent;
     -webkit-text-stroke: thin  #e46c6c;
@@ -207,8 +216,8 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 3rem;
-    height: 3rem;
+    width: 2.4rem;
+    height: 2.4rem;
     background-color: transparent;
     border: 0.2rem solid #b74b4b;
     position: relative;
@@ -228,7 +237,7 @@ section {
 
 footer {
     width: 100%;
-    height: 5rem;
+    height: 3rem;
     position: fixed;
     bottom: 0;
     background-color: black;
@@ -237,8 +246,8 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    gap: 5vw;
-    font-size: 1.2rem;
+    gap: 20px;
+    font-size: 0.8rem;
     font-weight: 400;
 }
 
