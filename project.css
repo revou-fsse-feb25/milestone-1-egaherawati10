@@ -89,47 +89,34 @@ nav{
     color: #b74b4b;
 }
 
-.dropdown{
-    z-index: 100;
-    position: absolute;
-    top: 0;
-    transform: translateY(-500px);
-    width: 100%;
-    height: auto;
-    backdrop-filter:blur(4px) brightness(40%);
-    box-shadow: 0 0 20px black;
-    transition: 0.2s linear;
+.main-container {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    min-height: 24vh;
+    margin: 0 0 0 7rem;
 }
 
+.main-container p {
+    text-align: justify;
+    font-size: 1.5rem;
+    color: white;
+}
 
 .main-container .content {
     color: white;
-    width: 55%;
-    margin-left: 40px;
+    width: 85%;
+    margin-left: 28px;
 }
 
 .content h1{
-    font-size: clamp(1rem, 1rem + 5vw, 1.8rem);
+    font-size: clamp(2rem, 1rem + 5vw, 1.8rem);
     color: #b74b4b
 }
 
 .content h1 span {
     color: #b74b4b;
     text-shadow: 0 0 10px #b74b4b;
-}
-
-.main-container {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    min-height: 20vh;
-}
-
-.main-container p {
-    text-align: justify;
-    font-size: 1.4rem;
-    color: white;
 }
 
 section {
@@ -214,4 +201,56 @@ section {
     line-height: 1.5rem;
     text-align: center;
     opacity: 0.75;
+}
+
+.social-links i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid #b74b4b;
+    position: relative;
+    border-radius: 50%;
+    color: #b74b4b;
+    margin: 1rem;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+}
+
+.social-links i:hover {
+    scale: 1.3;
+    color: black;
+    background-color: #b74b4b;
+    filter: drop-shadow(0 0 10px #b74b4b);
+}
+
+footer {
+    width: 100%;
+    height: 10rem;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1079px) {
+    body {
+        background: url(wall2.jpg);
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    body {
+        background: url(wall.jpg);
+        background-size: cover;
+    }
 }

@@ -3,8 +3,7 @@
 
 ## Overview
 
-This is an overview and documentation of a website that tells the visitors about me and my journey as software engineer. Feel free to reached me out for inquiries or collaboration projects.
-
+This is an overview and documentation of a website that tells the visitors about me and my journey as software engineer.
 
 ## Features
 
@@ -19,7 +18,9 @@ This is an overview and documentation of a website that tells the visitors about
 
 * HTML for stucturing this website
 * CSS for styling this website
-
+* Flex & Grid for responsive design
+* Media queries for responsive background image
+* CSS Transition & Animation to make this website prettier
 
 ## How to use
 
@@ -28,6 +29,9 @@ This is an overview and documentation of a website that tells the visitors about
 > https://github.com/revou-fsse-feb25/milestone-1-egaherawati10.git
 
 2. Open 'index.html' file in a browser
+
+## Deploy Website :
+github: 
 
 ## Creator
 
