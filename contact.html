@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Ega Herawati</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul class="navlist">
-                <li class="nav-item"><a href="/">Home</a></li>
-                <li class="nav-item"><a href="/aboutme.html">About</a></li>
-                <li class="nav-item"><a href="/project.html">Projects</a></li>
-                <li class="nav-item"><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <form action="backend.com" method="post">
-            <caption>Contact Me</caption>
-            <table>
-                <tr>
-                    <td>Name</td>
-                    <td><input type="text" placeholder="Enter your name" required></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td><input type="email" placeholder="Enter you email address" required></td>
-                </tr>
-                <tr>
-                    <td>Phone Number</td>
-                    <td><input type="tel" id="phone" name="phone" pattern="[0-9]{11-13}" placeholder="Enter your phone number" required></td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="">Select your concerns</label>
-                        <select name="concerns" id="concerns" required>
-                            <option value="hire-me">Hire Me</option>
-                            <option value="inquiry">Inquiry</option>
-                            <option value="collaboration">Collaborate</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="inquiry">Write your questions</label>
-                        <textarea name="inquiry" id="inquiry"></textarea>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="submit" value="Submit">
-                        <input type="reset" value="Reset">
-                    </td>
-                </tr>
-            </table>
-        </form>
-    </section>
+    <head>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ega Herawati - Software Engineer</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="navlist">
+                    <div class="logo"><span class="logo">Ega Herawati</span></div>
+                    <li class="nav-item"><a href ="/">Home</a></li>
+                    <li class="nav-item"><a href="/aboutme.html">About</a></li>
+                    <li class="nav-item"><a href="/project.html">Projects</a></li>
+                    <li class="nav-item"><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="contact">
+            <form class="content">
+                <h1>Contact Me</h1>
+                <table>
+                    <tr>
+                        <td><label for="Name">Name</label></td>
+                        <td><input type="text" placeholder="Enter your name" required></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Email">Email</label></td>
+                        <td><input type="email" placeholder="Enter you email address" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="concerns">Select your concerns</label>
+                            <select name="concerns" id="concerns" required>
+                                <option value="hire-me">Hire Me</option>
+                                <option value="inquiry">Inquiry</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="inquiry">Write your questions</label>
+                            <textarea name="inquiry" id="inquiry"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button>Submit</button>
+                            <button>Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form></div>
+        </section>
 </body>
 </html>
