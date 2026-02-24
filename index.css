@@ -185,15 +185,15 @@ main .main-container {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 2.4rem;
-    height: 2.4rem;
+    width: 2rem;
+    height: 2rem;
     background-color: transparent;
     border: 0.2rem solid #b74b4b;
     position: relative;
     border-radius: 50%;
     color: #b74b4b;
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     transition: 0.2s linear;
 }
 
